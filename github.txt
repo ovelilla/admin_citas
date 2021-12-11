@@ -1,0 +1,7 @@
+git checkout -b nuevo-header main
+git add .
+git commit -m "second commit"
+git checkout main
+git merge nuevo-header
+git branch -d nuevo-header
+git push -u origin main
